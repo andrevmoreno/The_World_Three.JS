@@ -4,7 +4,9 @@
 
 Welcome to **The World Three.JS**! This project uses [Three.js](https://threejs.org/) to create an immersive and interactive 3D world in the browser.
 
-![Project Screenshot](./public/project-screenshot.png)
+## Demo
+
+![Project Demo](./The_World_Three.gif)
 
 ## Features
 
@@ -30,46 +32,11 @@ Welcome to **The World Three.JS**! This project uses [Three.js](https://threejs.
 
 ### Installation
 
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/andrevmoreno/The_World_Three.JS.git
-   cd The_World_Three.JS
-### Install dependencies:
-sh
-Copy code
-npm install
-## Running the Project
-Start the development server using Vite:
+**Install dependencies:**
 
-sh
-Copy code
+```sh
+npm install
 npm run dev
+```
 Open your browser and go to http://localhost:3000.
 
-## Usage
-Navigation: Use mouse or touch gestures.
-Interaction: Click on objects.
-Customization: Modify files in the src directory.
-## Project Structure
-java
-Copy code
-The_World_Three.JS/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── scenes/
-│   ├── index.js
-│   └── styles.css
-├── public/
-│   ├── project-screenshot.png
-│   ├── index.html
-├── package.json
-└── README.md
-## Contributing
-Fork the repository.
-Create a new branch (git checkout -b feature/YourFeature).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/YourFeature).
-Open a pull request.
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
